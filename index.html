@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Jimmy's dinner</h1>
+            <h3>The best burgers and pizzas in town</h3>
+        </header>
+        <section>
+            <div class="container" id="container"></div>
+            <div class="container" id="order-container"></div>
+            <div id="payment-popup" class="payment-popup">
+                <div class="modal-content">
+                    <span class="close" id="close-popup">&times;</span>
+                    <h2>Enter card details</h2>
+                    <form id="payment-form">
+                        <input type="text" id="first-name" name="first-name" placeholder="Enter Your First Name">
+                        <input type="text" id="card-number" placeholder="Enter Your Card Number">
+                        <input type="text" id="cvv" placeholder="Enter CVV">
+                        <button id="pay-btn" class="pay-btn">Pay</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
